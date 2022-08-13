@@ -13,6 +13,7 @@ body {
 body {
     font-family: system-ui, -apple-system, Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    /* background-color: blue; */
 }
 
 a {
@@ -46,10 +47,12 @@ ul {
     grid-column: 1;
     grid-row: 1 / 3;
 
-    background-color: #00A8E0;
+    background-color: #5943DB;
     padding: 15px;
     color: white;
 }
+
+/* sidebar style begins here */
 
 .side-heading {
     margin-top: 0;
@@ -111,6 +114,94 @@ ul {
     font-size: 0.85rem;
     letter-spacing: 0.075ch;
 }
+
+/* sidebar style ends here */
+
+/* header begins here */
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px 10px;
+}
+
+.upper-header,
+.lower-header {
+    display: grid;
+    height: 50%;
+    column-gap: 15px;
+}
+
+.upper-header {
+    grid-template-columns: 1fr 11fr 1fr 1.2fr 4fr;
+}
+
+#search-icon,
+#notification-icon {
+    height: 20px;
+    width: 20px;
+
+    justify-self: center;
+}
+
+.upper-header img:nth-child(4) {
+    height: 32px;
+    width: 32px;
+
+    justify-self: center;
+}
+
+.upper-header div:last-child {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#search-box {
+    align-self: start;
+
+    width: 85%;
+    height: 25px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #E8E9ED;
+    box-shadow: 0 1px 2px 1px #8F92A3;
+}
+
+.lower-header {
+    display: grid;
+    grid-template-columns: 1fr 11fr 1.2fr 1.2fr 1.2fr;
+    column-gap: 15px;
+
+    padding-right: 110px;
+}
+
+.lower-header img {
+    justify-self: center;
+}
+
+.lower-header div {
+    font-weight: bold;
+    font-size: 0.65rem;
+    line-height: 1.4;
+}
+
+.lower-header>div span:nth-child(2),
+.lower-header>div span:last-child {
+    font-size: 1.25rem;
+}
+
+.lower-header button {
+    align-self: center;
+    background-color: #5943DB;
+    color: white;
+    font-weight: bold;
+
+    height: 25px;
+    border: 0;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+/* header ends here */
 
 .main-content {
     background-color: #E5E7EB;
