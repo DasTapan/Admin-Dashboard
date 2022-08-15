@@ -13,7 +13,6 @@ body {
 body {
     font-family: system-ui, -apple-system, Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    /* background-color: blue; */
 }
 
 a {
@@ -217,7 +216,6 @@ ul {
 .main-content>div {
     width: 97%;
     height: 92%;
-    /* background-color: red; */
 
     display: grid;
     grid-template-columns: 4fr 1.15fr;
@@ -225,13 +223,7 @@ ul {
     color: black;
 }
 
-.main-content>div>div {
-    /* background-color: saddlebrown; */
-    /* border: 2px solid black; */
-}
-
 .card-container {
-    /* background-color: palevioletred; */
     height: calc(100% - 23px);
 
     display: grid;
@@ -242,7 +234,6 @@ ul {
 
 .item-card {
     background-color: #FFFFFF;
-    /* border: 1px solid black; */
     padding: 25px 15px 15px;
 
     box-shadow: inset 5px 0 gold;
@@ -252,7 +243,6 @@ ul {
     height: 120px;
     margin-bottom: 10px;
     font-size: 0.7rem;
-    /* box-shadow: inset 2px 0 gold; */
 }
 
 .card-text>h5 {
@@ -264,11 +254,9 @@ ul {
 }
 
 .action-icon {
-    /* background-color: red; */
     height: 25px;
     width: 105px;
     margin-left: 55%;
-    /* margin-left: clamp(20px, 55%, 75px); */
 
     display: flex;
     justify-content: space-around;
@@ -294,12 +282,6 @@ ul {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     row-gap: 20px;
-
-    /* background-color: greenyellow; */
-}
-
-.secondary-card>div {
-    /* background-color: purple; */
 }
 
 .secondary-card h5 {
@@ -309,7 +291,6 @@ ul {
 .secondary-card>div>div {
     height: calc(100% - 23px);
     padding: 8px 12px;
-    /* background-color: red; */
     border-radius: 10px;
 
     display: grid;
@@ -324,12 +305,6 @@ ul {
 .secondary-card>div:last-child>div {
     background-color: #FFFFFF;
     grid-template-rows: repeat(4, 1fr);
-}
-
-.announcement-card,
-.trending-card {
-    /* background-color: turquoise; */
-    /* border: 1px solid black; */
 }
 
 .announcement-card.card1,
@@ -364,5 +339,6 @@ ul {
 .trending-card p span {
     color: #A38F9C;
 }
+/* main-content ends here */
 
 /* my style ends here */
