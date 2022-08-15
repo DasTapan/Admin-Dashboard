@@ -183,6 +183,7 @@ ul {
     line-height: 1.4;
 }
 
+/* bigger bolder font for user name */
 .lower-header>div span:nth-child(2),
 .lower-header>div span:last-child {
     font-size: 1.25rem;
