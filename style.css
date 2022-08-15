@@ -269,13 +269,15 @@ ul {
     background-color: #FFFFFF;
     /* border: 1px solid black; */
     padding: 25px 15px 15px;
+
+    box-shadow: inset 5px 0 gold;
 }
 
 .card-text {
     height: 120px;
     margin-bottom: 10px;
-
     font-size: 0.7rem;
+/* box-shadow: inset 2px 0 gold; */
 }
 
 .card-text>h5 {
